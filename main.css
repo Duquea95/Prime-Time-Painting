@@ -1,0 +1,74 @@
+/********************************/
+/********************************/
+/********* Index Styling ********/
+/********************************/
+/********************************/
+.body{
+width: 100%;
+height: 100%;
+background-color: #fbfaf9;
+font-size: 15px;
+/*background-size: auto;*/
+/*line-height: 160%;*/
+margin: 0;
+position: relative;
+}
+
+#pageContainer{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.mainDivStyles{
+    width: 100%;
+}
+
+#mainDivTop{
+    background-color: white;
+    height: 155px;
+}
+#mainDivMid{
+    background-color: red;
+    height: 300px;
+    position: relative;
+
+}
+#mainDivBot{
+    background-color: blue;
+    height: 300px;
+    position: relative;
+}
+
+.mainDivTopInner{
+    height: 155px;
+    /*background-color: blue;*/
+    margin-left: 89px;
+    margin-right: 89px;
+    z-index: 1;
+}
+.subTopNav{
+    position: absolute;
+    height: 80px;
+}
+
+#headerCompanyName{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 35px;
+    padding-left: 55px;
+    height: 100%;
+    font-size: 34px;
+}
+
+.navUlStyling{
+    margin: 0;
+    list-style: none;
+    display: table;
+}
+
+.navLiStyling{
+    position: relative;
+    cursor: pointer;
+    display: table-cell;
+}
