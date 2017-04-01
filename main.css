@@ -35,7 +35,7 @@ position: relative;
 
 }
 #mainDivBot{
-    background-color: blue;
+    /*background-color: blue;*/
     height: 300px;
     position: relative;
 }
@@ -43,13 +43,17 @@ position: relative;
 .mainDivTopInner{
     height: 155px;
     /*background-color: blue;*/
-    margin-left: 89px;
-    margin-right: 89px;
+    margin-left: 67px;
+    margin-right: 67px;
     z-index: 1;
 }
 .subTopNav{
     position: absolute;
     height: 80px;
+}
+.subBotFooter{
+    margin-left: 67px;
+    margin-right: 67px;
 }
 
 #headerCompanyName{
