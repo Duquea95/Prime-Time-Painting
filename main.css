@@ -3,76 +3,118 @@
 /********* Index Styling ********/
 /********************************/
 /********************************/
-.body{
-width: 100%;
+.bodyStyling{
+    margin: 0;
+/*width: 100%;
 height: 100%;
 background-color: #fbfaf9;
 font-size: 15px;
-/*background-size: auto;*/
-/*line-height: 160%;*/
-margin: 0;
-position: relative;
+background-size: auto;
+line-height: 160%;
+position: relative;*/
 }
-
 #pageContainer{
-    overflow: hidden;
+    /*overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 100%;*/
 }
-
 .mainDivStyles{
     width: 100%;
 }
-
 #mainDivTop{
-    background-color: white;
-    height: 155px;
+    /*background-color: blue;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 155px;*/
 }
 #mainDivMid{
-    background-color: red;
     height: 300px;
-    position: relative;
+    /*background-color: red;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;*/
 
 }
 #mainDivBot{
-    /*background-color: blue;*/
-    height: 300px;
-    position: relative;
+    height: 500px;
+    /*background-color: blue;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;*/
 }
-
-.mainDivTopInner{
-    height: 155px;
-    /*background-color: blue;*/
-    margin-left: 67px;
-    margin-right: 67px;
-    z-index: 1;
+#subTopNav{
+    height: 30px;
+    /*z-index: 1;*/
+    /*position: fixed;*/
+    /*
+    background-color: black;
+    width: 100%;
+    opacity: 0.5;
+    border: black 1px solid;*/
 }
-.subTopNav{
-    position: absolute;
-    height: 80px;
+#mainNav{
+    height: 30px;
 }
-.subBotFooter{
-    margin-left: 67px;
-    margin-right: 67px;
-}
-
-#headerCompanyName{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 35px;
-    padding-left: 55px;
-    height: 100%;
-    font-size: 34px;
-}
-
 .navUlStyling{
     margin: 0;
     list-style: none;
     display: table;
 }
-
 .navLiStyling{
-    position: relative;
-    cursor: pointer;
+    /*position: relative;*/
+    /*cursor: pointer;*/
     display: table-cell;
+}
+#subTopTitle{
+    height: 125px;
+    /*
+    background-color: blue;
+    margin-left: 67px;
+    margin-right: 67px;*/
+    display: flex;
+    align-items: stretch;
+}
+#subTopTitleName{
+    width: 630px;
+    text-align: center;
+}
+h1#headerCompanyName{
+    /*position: relative;*/
+    /*top: 40px;*/
+    /*left: 100px;*/
+    /*margin-bottom: 0;*/
+    /*margin-top: 0;*/
+    /*text-align: left;*/
+    /*width: 500px;*/
+    /*
+    padding-top: 35px;
+    padding-left: 55px;
+    height: 100%;
+    font-size: 34px;*/
+}
+#subTopTitleInfo{
+    text-align: right;
+    display: inline-flex;
+    width: 630px;
+}
+.footerStyle{
+    /*background: blue;
+    width: 100%;
+    z-index: 1;*/
+}
+#subBotFooter{
+    /*background-color: black;*/
+    /*height: 100%;*/
+    /*margin-left: 67px;
+    margin-right: 67px;*/
+    /*z-index: 1;*/
+}
+
+#subTopImg{
+    width: 100%;
+}
+
+#topImg{
+    width: 100%;
+    height: 334px;
 }
