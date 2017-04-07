@@ -4,6 +4,7 @@
 /********************************/
 /********************************/
 .bodyStyling{
+    /*color: white;*/
     margin: 0;
 /*width: 100%;
 height: 100%;
@@ -17,7 +18,11 @@ position: relative;*/
     /*overflow: hidden;
     position: relative;
     width: 100%;*/
+    /*background-color: rgba(68, 73, 84, 1)*/
 }
+/****************/
+/* Main Div Top*/
+/****************/
 .mainDivStyles{
     width: 100%;
 }
@@ -27,23 +32,8 @@ position: relative;*/
     margin-right: 15px;
     height: 155px;*/
 }
-#mainDivMid{
-    height: 300px;
-    /*background-color: red;
-    margin-left: 15px;
-    margin-right: 15px;
-    position: relative;*/
-
-}
-#mainDivBot{
-    height: 500px;
-    /*background-color: blue;
-    margin-left: 15px;
-    margin-right: 15px;
-    position: relative;*/
-}
 #subTopNav{
-    height: 30px;
+    height: 40px;
     /*z-index: 1;*/
     /*position: fixed;*/
     /*
@@ -53,63 +43,64 @@ position: relative;*/
     border: black 1px solid;*/
 }
 #mainNav{
-    height: 30px;
+    height: inherit;
+    width: auto;
+    background-color: rgba(232, 37, 0, 1);
 }
 .navUlStyling{
     margin: 0;
     list-style: none;
     display: table;
+    padding-left: 0;
+    height: inherit;
+    position: relative;
+    left: 85px;
 }
 .navLiStyling{
-    /*position: relative;*/
-    /*cursor: pointer;*/
     display: table-cell;
+    background-color: rgba(68, 73, 84, 1);
+    color: white;
+    vertical-align: middle;
+    height: inherit;
+    padding: 0 15px 0 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#navAddress{
+    display: inline-block;
+    height: inherit;
+    float: right;
+    position: relative;
+}
+#navAddressH2{
+    margin: 0;
 }
 #subTopTitle{
     height: 125px;
-    /*
-    background-color: blue;
-    margin-left: 67px;
-    margin-right: 67px;*/
     display: flex;
-    align-items: stretch;
+    letter-spacing: 1px;
 }
 #subTopTitleName{
-    width: 630px;
+    width: 512px;
     text-align: center;
+    display: inline-flex;
+    height: inherit;
 }
 h1#headerCompanyName{
-    /*position: relative;*/
-    /*top: 40px;*/
-    /*left: 100px;*/
-    /*margin-bottom: 0;*/
-    /*margin-top: 0;*/
-    /*text-align: left;*/
-    /*width: 500px;*/
-    /*
-    padding-top: 35px;
-    padding-left: 55px;
-    height: 100%;
-    font-size: 34px;*/
+    margin: 0;
+    width: inherit;
 }
 #subTopTitleInfo{
-    text-align: right;
-    display: inline-flex;
-    width: 630px;
+    width: 512px;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    display: block;
+    /*height: inherit;*/
 }
-.footerStyle{
-    /*background: blue;
-    width: 100%;
-    z-index: 1;*/
+#headerCompanyDetails{
+    margin: 0;
 }
-#subBotFooter{
-    /*background-color: black;*/
-    /*height: 100%;*/
-    /*margin-left: 67px;
-    margin-right: 67px;*/
-    /*z-index: 1;*/
-}
-
 #subTopImg{
     width: 100%;
 }
@@ -117,4 +108,47 @@ h1#headerCompanyName{
 #topImg{
     width: 100%;
     height: 334px;
+}
+
+/****************/
+/* Main Div Mid*/
+/****************/
+#mainDivMid{
+    height: 300px;
+    /*background-color: red;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;*/
+
+}
+#subMidInfo{
+    width: 630px;
+}
+#subMidDetails{
+    width: 630px;
+}
+
+/****************/
+/* Main Div Bot*/
+/****************/
+#mainDivBot{
+    height: 500px;
+    /*background-color: blue;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;*/
+    background-color: rgba(68, 73, 84, 1)
+}
+.footerStyle{
+    /*background: blue;
+    width: 100%;
+    z-index: 1;*/
+    height: inherit;
+}
+#subBotFooter{
+    /*background-color: black;*/
+    height: inherit;
+    /*margin-left: 67px;
+    margin-right: 67px;*/
+    /*z-index: 1;*/
 }
