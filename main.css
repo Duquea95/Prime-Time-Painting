@@ -56,6 +56,14 @@ position: relative;*/
     position: relative;
     left: 85px;
 }
+.navUl2{
+    position: relative;
+    display: inline-block;
+    right: 0;
+    padding-left: 0;
+    margin: 0;
+    width: 298px;
+}
 .navLiStyling{
     display: table-cell;
     background-color: rgba(68, 73, 84, 1);
@@ -67,7 +75,7 @@ position: relative;*/
     letter-spacing: 1px;
 }
 #navAddress{
-    display: inline-block;
+    display: block;
     height: inherit;
     float: right;
     position: relative;
@@ -75,22 +83,25 @@ position: relative;*/
 #navAddressP{
     margin: 0;
 }
-#subTopTitle{
+div#subTopTitle{
     height: 125px;
     display: flex;
     letter-spacing: 1px;
 }
-#subTopTitleName{
+div#subTopTitleName{
     width: 512px;
-    text-align: center;
-    display: inline-flex;
-    height: inherit;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+    display: block;
 }
 h1#headerCompanyName{
     margin: 0;
-    width: inherit;
+    position: relative;
+    top: 40px;
+    text-align: center;
 }
-#subTopTitleInfo{
+div#subTopTitleInfo{
     width: 512px;
     vertical-align: middle;
     position: relative;
@@ -98,8 +109,11 @@ h1#headerCompanyName{
     display: block;
     /*height: inherit;*/
 }
-#headerCompanyDetails{
+h1#headerCompanyDetails{
+    text-align: center;
     margin: 0;
+    top: 40px;
+    position: relative;
 }
 #subTopImg{
     width: 100%;
