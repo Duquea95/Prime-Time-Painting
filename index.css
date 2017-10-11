@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body, p, ul, .headerContainer{
+    margin: 0;
+    padding: 0;
+}
+
+nav, .headerContainer{
+    display: table;
+    width: 100%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.nav{
+    width: 25%;
+    margin: 0 auto;
+    height: 55px;
+}
+.headerItem, .navA{
+    display: table-cell;
+    vertical-align: middle;
+}
+.header{
+    text-align: center;
+}
+.headerContainer, .headerItem{
+    height: 80px;
+}
+.headerItem{
+    width: 33%;
+}
+.logo{
+}
+.menu{
+    background-color: grey;
+    /*height: 30px;*/
+}
+.navA{
+    font-size: 18px;
+    width: 25%;
+}
+
+.content{
+    border: 2px solid black;
+    text-align: center;
+}
+.carousel{
+    height: 500px;
+    border-top: none;
+}
+.pictureContainer{
+    width: inherit;
+    height: inherit;
+}
+.carouselImage{
+    /*background-color: rgba(145,12,185, .5);
+    background-image: cover;*/
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+    }
+    .menu{}
+
+    .white_section{
+        width: 480px;
+        height: 150px;
+        background-color: rgba(255,255,255,1);
+    }
+    .blue_section{
+        width: 480px;
+        height: 150px;
+        background-color: rgba(0,89,207,.7)
+    }
+
+}
