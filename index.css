@@ -1,15 +1,11 @@
 *{
     box-sizing: border-box;
+    font-family: Helvetica;
 }
 
-body, p, ul, .headerContainer{
+body, p, ul, h1, .headerContainer{
     margin: 0;
     padding: 0;
-}
-
-nav, .headerContainer{
-    display: table;
-    width: 100%;
 }
 a{
     color: black;
@@ -18,50 +14,63 @@ a{
 a:hover{
     color: blue;
 }
-.nav{
-    width: 25%;
-    margin: 0 auto;
-    height: 55px;
+nav, .headerContainer{
+    display: table;
+    width: 100%;
 }
 .headerItem, .navA{
     display: table-cell;
     vertical-align: middle;
 }
+.menu, .logo{
+    width: 100%;
+}
+.nav{
+    background-color: rgba(41,171,226,0.5);
+    margin: 0 auto;
+    height: 55px;
+}
 .header{
     text-align: center;
 }
-.headerContainer, .headerItem{
-    height: 80px;
-}
 .headerItem{
     width: 33%;
+    font-size: 20px;
 }
 .logo{
+    margin: 25px 0;
 }
-.menu{
-    background-color: grey;
-    /*height: 30px;*/
-}
+
 .navA{
-    font-size: 18px;
+    font-size: 20px;
     width: 25%;
+    border-right: 1px solid rgba(0,0,0,.2);
 }
 
 .content{
-    border: 2px solid black;
+    text-align: center;
+    background-color: rgba(41,171,226,0.5);
+}
+.main{
+    width:100%;
+    display: table;
+    margin-top: 105px;
     text-align: center;
 }
-.carousel{
-    height: 500px;
-    border-top: none;
+.leftMain, .rightMain{
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    /*width: 50%;.*/
 }
-.pictureContainer{
-    width: inherit;
-    height: inherit;
+h1.iMidItem{
+    padding-bottom: 25px;
 }
-.carouselImage{
-    /*background-color: rgba(145,12,185, .5);
-    background-image: cover;*/
+span.iMidItem{
+    width: 100%;
+}
+.img1{
+    width: 50%;
 }
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
